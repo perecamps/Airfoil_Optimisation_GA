@@ -10,6 +10,8 @@ The work has a first theoretical part about Genetic Algorithms, in which the bas
 The Genetic Algorithm created uses crossovers and mutations. The airfoil parametrisation used has been the PARSEC parametrisation and the computation of the aerodynamic coefficients is done with XFOIL. The whole code is written in C language and the results analysis and graphs are done with MATLAB and XFLR5.\\
 
 Finally, the algorithm is tested with two real design cases, an airfoil for a heavy lifter aircraft that participated in the Air Cargo Challenge 2017 in Stuttgart, and an airfoil for a glider that flew in the Paper Air Challenge 2015 in ESEIAAT, Terrasa. The results and improvements offered by the algorithm are compared with the results that the designers of these aircraft obtained manually during the design process.\\
+
+USER GUIDE
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 In order to execute the code, for now, it is needed a computer with a gcc compiler, which is included in the Minimalist GNU for Windows (MinGW). In addition, the software XFOIL.exe must be in the same folder as the executable. To modify the parameters, the .c file must be opened. In the first lines of the code, the modifiable parameters can be easily identified. These are the following:
