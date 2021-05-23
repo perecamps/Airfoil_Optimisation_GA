@@ -17,7 +17,8 @@ USER GUIDE
 In order to execute the code, for now, it is needed a computer with a gcc compiler, which is included in the Minimalist GNU for Windows (MinGW). In addition, the software XFOIL.exe must be in the same folder as the executable. To modify the parameters, the .c file must be opened. In the first lines of the code, the modifiable parameters can be easily identified. These are the following:
 
 · Genetic Algorithm Parameters
-    - Generations_NOT_IMPROVE - Set as 8.
+
+    - Generations_NOT_IMPROVE - Set as 8
     - MAX_INFEASIBLE - Set as 9.
     - MAX_GENERATIONS - Set as 100.
     - MUTATION - Set as type 1
@@ -25,10 +26,12 @@ In order to execute the code, for now, it is needed a computer with a gcc compil
     - individuals - Set as 160 (more than 200 is not recommended)
 
 · Fitness function
+
     - FITNESS_TYPE - To choose between 1, 2, 3 and 4. Recomended 1 and 2.
     - ClT - Objective Cl. Useful only if fitness type 2 is selected.
     
 · Constraints
+
     - MAX_THICKNESS - To choose between 0 and 1. Set 1 for no constraint.
     - MIN_THICKNESS - To choose between 0 and 1. Set 0 for no constraint.
     - TE_THICKNESS - Set 0 for no constraint
@@ -39,6 +42,7 @@ In order to execute the code, for now, it is needed a computer with a gcc compil
 The execution generates several files, including the best airfoil of each generation (.dat files) and a .txt file containing the aerodynamic coefficients and fit of the best airfoil of each generation. These files can be analysed with a MATLAB code. Thus, it is needed to have the software installed to use it.
 
 All in all, the needed files to execute the code and analyse the results are:
+
     - AirfoilOot_GA_v2.c
     - AirfoilOot_GA_v2.exe
     - kill_XFOIL.c
