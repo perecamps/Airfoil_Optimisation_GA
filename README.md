@@ -1,5 +1,5 @@
-# AirfoilOpt_GeneticAlg
-Airfoil Optimisation with a Genetic Algorithm. Final Master Thesis of Master's Degree in Aerospace Engineering for the UPC.
+# Airfoil Optimisation with a Genetic Algorithm
+Final Master Thesis of Master's Degree in Aerospace Engineering for the UPC.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 In this Master Thesis, an airfoil optimisation using a Genetic Algorithm is developed.  This project has been proposed by myself and done with the guidance and supervision of professor Manel Soria.\\
 
